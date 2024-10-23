@@ -27,7 +27,7 @@ dependencies:
   context_menus:
     git:
       url: https://github.com/SoFluffyOS/flutter-context-menu.git
-      ref: 4081ec557e2f581e40d34d3c6a70b9a23efcb1ef
+      ref: aa9b82808637f7d81293fd6f7641a0661f760422
 
 flutter:
   uses-material-design: true

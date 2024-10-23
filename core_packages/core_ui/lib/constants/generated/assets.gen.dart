@@ -7,28 +7,54 @@
 // ignore_for_file: type=lint
 // ignore_for_file: directives_ordering,unnecessary_import,implicit_dynamic_list_literal,deprecated_member_use
 
-import 'package:flutter/widgets.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart' as _svg;
+import 'package:vector_graphics/vector_graphics.dart' as _vg;
 
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// Directory path: assets/icons/arrows
   $AssetsIconsArrowsGen get arrows => const $AssetsIconsArrowsGen();
+
+  /// Directory path: assets/icons/business
   $AssetsIconsBusinessGen get business => const $AssetsIconsBusinessGen();
+
+  /// Directory path: assets/icons/communication
   $AssetsIconsCommunicationGen get communication =>
       const $AssetsIconsCommunicationGen();
+
+  /// Directory path: assets/icons/device
   $AssetsIconsDeviceGen get device => const $AssetsIconsDeviceGen();
+
+  /// Directory path: assets/icons/ecommerce
   $AssetsIconsEcommerceGen get ecommerce => const $AssetsIconsEcommerceGen();
+
+  /// Directory path: assets/icons/editor
   $AssetsIconsEditorGen get editor => const $AssetsIconsEditorGen();
+
+  /// Directory path: assets/icons/education
   $AssetsIconsEducationGen get education => const $AssetsIconsEducationGen();
+
+  /// Directory path: assets/icons/files and folder
   $AssetsIconsFilesAndFolderGen get filesAndFolder =>
       const $AssetsIconsFilesAndFolderGen();
+
+  /// Directory path: assets/icons/finance and payment
   $AssetsIconsFinanceAndPaymentGen get financeAndPayment =>
       const $AssetsIconsFinanceAndPaymentGen();
+
+  /// Directory path: assets/icons/grid
   $AssetsIconsGridGen get grid => const $AssetsIconsGridGen();
+
+  /// Directory path: assets/icons/health
   $AssetsIconsHealthGen get health => const $AssetsIconsHealthGen();
+
+  /// Directory path: assets/icons/interface
   $AssetsIconsInterfaceGen get interface => const $AssetsIconsInterfaceGen();
+
+  /// Directory path: assets/icons/menu
   $AssetsIconsMenuGen get menu => const $AssetsIconsMenuGen();
 
   /// File path: assets/icons/moon_outline.svg
@@ -38,15 +64,26 @@ class $AssetsIconsGen {
   /// File path: assets/icons/moon_solid.svg
   SvgGenImage get moonSolid => const SvgGenImage('assets/icons/moon_solid.svg');
 
+  /// Directory path: assets/icons/multimedia and audio
   $AssetsIconsMultimediaAndAudioGen get multimediaAndAudio =>
       const $AssetsIconsMultimediaAndAudioGen();
+
+  /// Directory path: assets/icons/navigation maps
   $AssetsIconsNavigationMapsGen get navigationMaps =>
       const $AssetsIconsNavigationMapsGen();
+
+  /// Directory path: assets/icons/notes and task
   $AssetsIconsNotesAndTaskGen get notesAndTask =>
       const $AssetsIconsNotesAndTaskGen();
+
+  /// Directory path: assets/icons/shipping and delivery
   $AssetsIconsShippingAndDeliveryGen get shippingAndDelivery =>
       const $AssetsIconsShippingAndDeliveryGen();
+
+  /// Directory path: assets/icons/smart house
   $AssetsIconsSmartHouseGen get smartHouse => const $AssetsIconsSmartHouseGen();
+
+  /// Directory path: assets/icons/social
   $AssetsIconsSocialGen get social => const $AssetsIconsSocialGen();
 
   /// File path: assets/icons/sun_outline.svg
@@ -56,9 +93,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/sun_solid.svg
   SvgGenImage get sunSolid => const SvgGenImage('assets/icons/sun_solid.svg');
 
+  /// Directory path: assets/icons/time and date
   $AssetsIconsTimeAndDateGen get timeAndDate =>
       const $AssetsIconsTimeAndDateGen();
+
+  /// Directory path: assets/icons/user
   $AssetsIconsUserGen get user => const $AssetsIconsUserGen();
+
+  /// Directory path: assets/icons/weather
   $AssetsIconsWeatherGen get weather => const $AssetsIconsWeatherGen();
 
   /// List of all assets
@@ -69,18 +111,28 @@ class $AssetsIconsGen {
 class $AssetsIconsArrowsGen {
   const $AssetsIconsArrowsGen();
 
+  /// Directory path: assets/icons/arrows/bulk
   $AssetsIconsArrowsBulkGen get bulk => const $AssetsIconsArrowsBulkGen();
+
+  /// Directory path: assets/icons/arrows/outline
   $AssetsIconsArrowsOutlineGen get outline =>
       const $AssetsIconsArrowsOutlineGen();
+
+  /// Directory path: assets/icons/arrows/solid
   $AssetsIconsArrowsSolidGen get solid => const $AssetsIconsArrowsSolidGen();
 }
 
 class $AssetsIconsBusinessGen {
   const $AssetsIconsBusinessGen();
 
+  /// Directory path: assets/icons/business/bulk
   $AssetsIconsBusinessBulkGen get bulk => const $AssetsIconsBusinessBulkGen();
+
+  /// Directory path: assets/icons/business/outline
   $AssetsIconsBusinessOutlineGen get outline =>
       const $AssetsIconsBusinessOutlineGen();
+
+  /// Directory path: assets/icons/business/solid
   $AssetsIconsBusinessSolidGen get solid =>
       const $AssetsIconsBusinessSolidGen();
 }
@@ -88,10 +140,15 @@ class $AssetsIconsBusinessGen {
 class $AssetsIconsCommunicationGen {
   const $AssetsIconsCommunicationGen();
 
+  /// Directory path: assets/icons/communication/bulk
   $AssetsIconsCommunicationBulkGen get bulk =>
       const $AssetsIconsCommunicationBulkGen();
+
+  /// Directory path: assets/icons/communication/outline
   $AssetsIconsCommunicationOutlineGen get outline =>
       const $AssetsIconsCommunicationOutlineGen();
+
+  /// Directory path: assets/icons/communication/solid
   $AssetsIconsCommunicationSolidGen get solid =>
       const $AssetsIconsCommunicationSolidGen();
 }
@@ -99,18 +156,28 @@ class $AssetsIconsCommunicationGen {
 class $AssetsIconsDeviceGen {
   const $AssetsIconsDeviceGen();
 
+  /// Directory path: assets/icons/device/bulk
   $AssetsIconsDeviceBulkGen get bulk => const $AssetsIconsDeviceBulkGen();
+
+  /// Directory path: assets/icons/device/outline
   $AssetsIconsDeviceOutlineGen get outline =>
       const $AssetsIconsDeviceOutlineGen();
+
+  /// Directory path: assets/icons/device/solid
   $AssetsIconsDeviceSolidGen get solid => const $AssetsIconsDeviceSolidGen();
 }
 
 class $AssetsIconsEcommerceGen {
   const $AssetsIconsEcommerceGen();
 
+  /// Directory path: assets/icons/ecommerce/bulk
   $AssetsIconsEcommerceBulkGen get bulk => const $AssetsIconsEcommerceBulkGen();
+
+  /// Directory path: assets/icons/ecommerce/outline
   $AssetsIconsEcommerceOutlineGen get outline =>
       const $AssetsIconsEcommerceOutlineGen();
+
+  /// Directory path: assets/icons/ecommerce/solid
   $AssetsIconsEcommerceSolidGen get solid =>
       const $AssetsIconsEcommerceSolidGen();
 }
@@ -118,18 +185,28 @@ class $AssetsIconsEcommerceGen {
 class $AssetsIconsEditorGen {
   const $AssetsIconsEditorGen();
 
+  /// Directory path: assets/icons/editor/bulk
   $AssetsIconsEditorBulkGen get bulk => const $AssetsIconsEditorBulkGen();
+
+  /// Directory path: assets/icons/editor/outline
   $AssetsIconsEditorOutlineGen get outline =>
       const $AssetsIconsEditorOutlineGen();
+
+  /// Directory path: assets/icons/editor/solid
   $AssetsIconsEditorSolidGen get solid => const $AssetsIconsEditorSolidGen();
 }
 
 class $AssetsIconsEducationGen {
   const $AssetsIconsEducationGen();
 
+  /// Directory path: assets/icons/education/bulk
   $AssetsIconsEducationBulkGen get bulk => const $AssetsIconsEducationBulkGen();
+
+  /// Directory path: assets/icons/education/outline
   $AssetsIconsEducationOutlineGen get outline =>
       const $AssetsIconsEducationOutlineGen();
+
+  /// Directory path: assets/icons/education/solid
   $AssetsIconsEducationSolidGen get solid =>
       const $AssetsIconsEducationSolidGen();
 }
@@ -137,10 +214,15 @@ class $AssetsIconsEducationGen {
 class $AssetsIconsFilesAndFolderGen {
   const $AssetsIconsFilesAndFolderGen();
 
+  /// Directory path: assets/icons/files and folder/bulk
   $AssetsIconsFilesAndFolderBulkGen get bulk =>
       const $AssetsIconsFilesAndFolderBulkGen();
+
+  /// Directory path: assets/icons/files and folder/outline
   $AssetsIconsFilesAndFolderOutlineGen get outline =>
       const $AssetsIconsFilesAndFolderOutlineGen();
+
+  /// Directory path: assets/icons/files and folder/solid
   $AssetsIconsFilesAndFolderSolidGen get solid =>
       const $AssetsIconsFilesAndFolderSolidGen();
 }
@@ -148,10 +230,15 @@ class $AssetsIconsFilesAndFolderGen {
 class $AssetsIconsFinanceAndPaymentGen {
   const $AssetsIconsFinanceAndPaymentGen();
 
+  /// Directory path: assets/icons/finance and payment/bulk
   $AssetsIconsFinanceAndPaymentBulkGen get bulk =>
       const $AssetsIconsFinanceAndPaymentBulkGen();
+
+  /// Directory path: assets/icons/finance and payment/outline
   $AssetsIconsFinanceAndPaymentOutlineGen get outline =>
       const $AssetsIconsFinanceAndPaymentOutlineGen();
+
+  /// Directory path: assets/icons/finance and payment/solid
   $AssetsIconsFinanceAndPaymentSolidGen get solid =>
       const $AssetsIconsFinanceAndPaymentSolidGen();
 }
@@ -159,26 +246,41 @@ class $AssetsIconsFinanceAndPaymentGen {
 class $AssetsIconsGridGen {
   const $AssetsIconsGridGen();
 
+  /// Directory path: assets/icons/grid/bulk
   $AssetsIconsGridBulkGen get bulk => const $AssetsIconsGridBulkGen();
+
+  /// Directory path: assets/icons/grid/outline
   $AssetsIconsGridOutlineGen get outline => const $AssetsIconsGridOutlineGen();
+
+  /// Directory path: assets/icons/grid/solid
   $AssetsIconsGridSolidGen get solid => const $AssetsIconsGridSolidGen();
 }
 
 class $AssetsIconsHealthGen {
   const $AssetsIconsHealthGen();
 
+  /// Directory path: assets/icons/health/bulk
   $AssetsIconsHealthBulkGen get bulk => const $AssetsIconsHealthBulkGen();
+
+  /// Directory path: assets/icons/health/outline
   $AssetsIconsHealthOutlineGen get outline =>
       const $AssetsIconsHealthOutlineGen();
+
+  /// Directory path: assets/icons/health/solid
   $AssetsIconsHealthSolidGen get solid => const $AssetsIconsHealthSolidGen();
 }
 
 class $AssetsIconsInterfaceGen {
   const $AssetsIconsInterfaceGen();
 
+  /// Directory path: assets/icons/interface/bulk
   $AssetsIconsInterfaceBulkGen get bulk => const $AssetsIconsInterfaceBulkGen();
+
+  /// Directory path: assets/icons/interface/outline
   $AssetsIconsInterfaceOutlineGen get outline =>
       const $AssetsIconsInterfaceOutlineGen();
+
+  /// Directory path: assets/icons/interface/solid
   $AssetsIconsInterfaceSolidGen get solid =>
       const $AssetsIconsInterfaceSolidGen();
 }
@@ -186,18 +288,28 @@ class $AssetsIconsInterfaceGen {
 class $AssetsIconsMenuGen {
   const $AssetsIconsMenuGen();
 
+  /// Directory path: assets/icons/menu/bulk
   $AssetsIconsMenuBulkGen get bulk => const $AssetsIconsMenuBulkGen();
+
+  /// Directory path: assets/icons/menu/outline
   $AssetsIconsMenuOutlineGen get outline => const $AssetsIconsMenuOutlineGen();
+
+  /// Directory path: assets/icons/menu/solid
   $AssetsIconsMenuSolidGen get solid => const $AssetsIconsMenuSolidGen();
 }
 
 class $AssetsIconsMultimediaAndAudioGen {
   const $AssetsIconsMultimediaAndAudioGen();
 
+  /// Directory path: assets/icons/multimedia and audio/bulk
   $AssetsIconsMultimediaAndAudioBulkGen get bulk =>
       const $AssetsIconsMultimediaAndAudioBulkGen();
+
+  /// Directory path: assets/icons/multimedia and audio/outline
   $AssetsIconsMultimediaAndAudioOutlineGen get outline =>
       const $AssetsIconsMultimediaAndAudioOutlineGen();
+
+  /// Directory path: assets/icons/multimedia and audio/solid
   $AssetsIconsMultimediaAndAudioSolidGen get solid =>
       const $AssetsIconsMultimediaAndAudioSolidGen();
 }
@@ -205,10 +317,15 @@ class $AssetsIconsMultimediaAndAudioGen {
 class $AssetsIconsNavigationMapsGen {
   const $AssetsIconsNavigationMapsGen();
 
+  /// Directory path: assets/icons/navigation maps/bulk
   $AssetsIconsNavigationMapsBulkGen get bulk =>
       const $AssetsIconsNavigationMapsBulkGen();
+
+  /// Directory path: assets/icons/navigation maps/outline
   $AssetsIconsNavigationMapsOutlineGen get outline =>
       const $AssetsIconsNavigationMapsOutlineGen();
+
+  /// Directory path: assets/icons/navigation maps/solid
   $AssetsIconsNavigationMapsSolidGen get solid =>
       const $AssetsIconsNavigationMapsSolidGen();
 }
@@ -216,10 +333,15 @@ class $AssetsIconsNavigationMapsGen {
 class $AssetsIconsNotesAndTaskGen {
   const $AssetsIconsNotesAndTaskGen();
 
+  /// Directory path: assets/icons/notes and task/bulk
   $AssetsIconsNotesAndTaskBulkGen get bulk =>
       const $AssetsIconsNotesAndTaskBulkGen();
+
+  /// Directory path: assets/icons/notes and task/outline
   $AssetsIconsNotesAndTaskOutlineGen get outline =>
       const $AssetsIconsNotesAndTaskOutlineGen();
+
+  /// Directory path: assets/icons/notes and task/solid
   $AssetsIconsNotesAndTaskSolidGen get solid =>
       const $AssetsIconsNotesAndTaskSolidGen();
 }
@@ -227,10 +349,15 @@ class $AssetsIconsNotesAndTaskGen {
 class $AssetsIconsShippingAndDeliveryGen {
   const $AssetsIconsShippingAndDeliveryGen();
 
+  /// Directory path: assets/icons/shipping and delivery/bulk
   $AssetsIconsShippingAndDeliveryBulkGen get bulk =>
       const $AssetsIconsShippingAndDeliveryBulkGen();
+
+  /// Directory path: assets/icons/shipping and delivery/outline
   $AssetsIconsShippingAndDeliveryOutlineGen get outline =>
       const $AssetsIconsShippingAndDeliveryOutlineGen();
+
+  /// Directory path: assets/icons/shipping and delivery/solid
   $AssetsIconsShippingAndDeliverySolidGen get solid =>
       const $AssetsIconsShippingAndDeliverySolidGen();
 }
@@ -238,10 +365,15 @@ class $AssetsIconsShippingAndDeliveryGen {
 class $AssetsIconsSmartHouseGen {
   const $AssetsIconsSmartHouseGen();
 
+  /// Directory path: assets/icons/smart house/bulk
   $AssetsIconsSmartHouseBulkGen get bulk =>
       const $AssetsIconsSmartHouseBulkGen();
+
+  /// Directory path: assets/icons/smart house/outline
   $AssetsIconsSmartHouseOutlineGen get outline =>
       const $AssetsIconsSmartHouseOutlineGen();
+
+  /// Directory path: assets/icons/smart house/solid
   $AssetsIconsSmartHouseSolidGen get solid =>
       const $AssetsIconsSmartHouseSolidGen();
 }
@@ -249,19 +381,29 @@ class $AssetsIconsSmartHouseGen {
 class $AssetsIconsSocialGen {
   const $AssetsIconsSocialGen();
 
+  /// Directory path: assets/icons/social/bulk
   $AssetsIconsSocialBulkGen get bulk => const $AssetsIconsSocialBulkGen();
+
+  /// Directory path: assets/icons/social/outline
   $AssetsIconsSocialOutlineGen get outline =>
       const $AssetsIconsSocialOutlineGen();
+
+  /// Directory path: assets/icons/social/solid
   $AssetsIconsSocialSolidGen get solid => const $AssetsIconsSocialSolidGen();
 }
 
 class $AssetsIconsTimeAndDateGen {
   const $AssetsIconsTimeAndDateGen();
 
+  /// Directory path: assets/icons/time and date/bulk
   $AssetsIconsTimeAndDateBulkGen get bulk =>
       const $AssetsIconsTimeAndDateBulkGen();
+
+  /// Directory path: assets/icons/time and date/outline
   $AssetsIconsTimeAndDateOutlineGen get outline =>
       const $AssetsIconsTimeAndDateOutlineGen();
+
+  /// Directory path: assets/icons/time and date/solid
   $AssetsIconsTimeAndDateSolidGen get solid =>
       const $AssetsIconsTimeAndDateSolidGen();
 }
@@ -269,17 +411,27 @@ class $AssetsIconsTimeAndDateGen {
 class $AssetsIconsUserGen {
   const $AssetsIconsUserGen();
 
+  /// Directory path: assets/icons/user/bulk
   $AssetsIconsUserBulkGen get bulk => const $AssetsIconsUserBulkGen();
+
+  /// Directory path: assets/icons/user/outline
   $AssetsIconsUserOutlineGen get outline => const $AssetsIconsUserOutlineGen();
+
+  /// Directory path: assets/icons/user/solid
   $AssetsIconsUserSolidGen get solid => const $AssetsIconsUserSolidGen();
 }
 
 class $AssetsIconsWeatherGen {
   const $AssetsIconsWeatherGen();
 
+  /// Directory path: assets/icons/weather/bulk
   $AssetsIconsWeatherBulkGen get bulk => const $AssetsIconsWeatherBulkGen();
+
+  /// Directory path: assets/icons/weather/outline
   $AssetsIconsWeatherOutlineGen get outline =>
       const $AssetsIconsWeatherOutlineGen();
+
+  /// Directory path: assets/icons/weather/solid
   $AssetsIconsWeatherSolidGen get solid => const $AssetsIconsWeatherSolidGen();
 }
 
@@ -21033,9 +21185,16 @@ class Assets {
 }
 
 class AssetGenImage {
-  const AssetGenImage(this._assetName);
+  const AssetGenImage(
+    this._assetName, {
+    this.size,
+    this.flavors = const {},
+  });
 
   final String _assetName;
+
+  final Size? size;
+  final Set<String> flavors;
 
   Image image({
     Key? key,
@@ -21107,11 +21266,24 @@ class AssetGenImage {
 }
 
 class SvgGenImage {
-  const SvgGenImage(this._assetName);
+  const SvgGenImage(
+    this._assetName, {
+    this.size,
+    this.flavors = const {},
+  }) : _isVecFormat = false;
+
+  const SvgGenImage.vec(
+    this._assetName, {
+    this.size,
+    this.flavors = const {},
+  }) : _isVecFormat = true;
 
   final String _assetName;
+  final Size? size;
+  final Set<String> flavors;
+  final bool _isVecFormat;
 
-  SvgPicture svg({
+  _svg.SvgPicture svg({
     Key? key,
     bool matchTextDirection = false,
     AssetBundle? bundle,
@@ -21124,19 +21296,32 @@ class SvgGenImage {
     WidgetBuilder? placeholderBuilder,
     String? semanticsLabel,
     bool excludeFromSemantics = false,
-    SvgTheme theme = const SvgTheme(),
+    _svg.SvgTheme? theme,
     ColorFilter? colorFilter,
     Clip clipBehavior = Clip.hardEdge,
     @deprecated Color? color,
     @deprecated BlendMode colorBlendMode = BlendMode.srcIn,
     @deprecated bool cacheColorFilter = false,
   }) {
-    return SvgPicture.asset(
-      _assetName,
+    final _svg.BytesLoader loader;
+    if (_isVecFormat) {
+      loader = _vg.AssetBytesLoader(
+        _assetName,
+        assetBundle: bundle,
+        packageName: package,
+      );
+    } else {
+      loader = _svg.SvgAssetLoader(
+        _assetName,
+        assetBundle: bundle,
+        packageName: package,
+        theme: theme,
+      );
+    }
+    return _svg.SvgPicture(
+      loader,
       key: key,
       matchTextDirection: matchTextDirection,
-      bundle: bundle,
-      package: package,
       width: width,
       height: height,
       fit: fit,
@@ -21145,10 +21330,8 @@ class SvgGenImage {
       placeholderBuilder: placeholderBuilder,
       semanticsLabel: semanticsLabel,
       excludeFromSemantics: excludeFromSemantics,
-      theme: theme,
-      colorFilter: colorFilter,
-      color: color,
-      colorBlendMode: colorBlendMode,
+      colorFilter: colorFilter ??
+          (color == null ? null : ColorFilter.mode(color, colorBlendMode)),
       clipBehavior: clipBehavior,
       cacheColorFilter: cacheColorFilter,
     );
