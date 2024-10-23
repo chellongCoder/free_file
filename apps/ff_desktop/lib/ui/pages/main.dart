@@ -1,13 +1,12 @@
 import 'package:core/core.dart';
 import 'package:core_ui/core_ui.dart';
 import 'package:ff_desktop/constants/constants.dart';
+import 'package:ff_desktop/features/features.dart';
 import 'package:ff_desktop/models/models.dart';
+import 'package:ff_desktop/ui/ui.dart';
 import 'package:ff_desktop/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:theme/theme.dart';
-import 'package:ff_desktop/ui/ui.dart';
-
-import 'package:ff_desktop/features/features.dart';
 
 class MainPage extends StatelessWidget {
   static const String routePath = '/';
@@ -31,69 +30,71 @@ class MainPage extends StatelessWidget {
               axis: Axis.horizontal,
               initialAreas: [
                 Area(
-                  minimalSize: kSideBarMinimumSize,
+                  min: kSideBarMinimumSize,
                   size: kSideBarMinimumSize,
+                  builder: (context, area) {
+                    return const SideBar();
+                  },
                 ),
                 Area(
-                  minimalSize: kMainAreaMinimumSize,
+                  min: kMainAreaMinimumSize,
                   size: kMainAreaDefaultSize,
-                ),
-              ],
-              children: [
-                const SideBar(),
-                Padding(
-                  padding: EdgeInsets.only(
-                    bottom: Spacing.d8,
-                    right: Spacing.d8,
-                  ),
-                  child: Column(
-                    children: [
-                      const HeheTabBar(),
-                      Container(
-                        height: Spacing.d48,
-                        decoration: BoxDecoration(
-                          color: context
-                              .appTheme.color.navBarBackground.withTransparency,
-                          borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(
-                              Spacing.d12,
-                            ),
-                            topRight: Radius.circular(
-                              Spacing.d12,
-                            ),
-                          ),
-                        ),
-                        padding: EdgeInsets.symmetric(
-                          vertical: Spacing.d4,
-                          horizontal: Spacing.d4,
-                        ),
-                        child: Row(
-                          children: [
-                            const NavBar(),
-                            const Expanded(
-                              child: AddressBar(
-                                key: Key('address_bar'),
+                  builder: (context, area) {
+                    return Padding(
+                      padding: EdgeInsets.only(
+                        bottom: Spacing.d8,
+                        right: Spacing.d8,
+                      ),
+                      child: Column(
+                        children: [
+                          const HeheTabBar(),
+                          Container(
+                            height: Spacing.d48,
+                            decoration: BoxDecoration(
+                              color: context.appTheme.color.navBarBackground
+                                  .withTransparency,
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(
+                                  Spacing.d12,
+                                ),
+                                topRight: Radius.circular(
+                                  Spacing.d12,
+                                ),
                               ),
                             ),
-                            if (ThemeConfigs().config.showSearchBar)
-                              const HeheSearchBar(),
-                          ],
-                        ),
-                      ),
-                      ToolBar(onAction: (action) {
-                        _handleAction(context, action);
-                      }),
-                      Expanded(
-                        child: MainArea(
-                          key: const Key('main_area'),
-                          onAction: (action) {
+                            padding: EdgeInsets.symmetric(
+                              vertical: Spacing.d4,
+                              horizontal: Spacing.d4,
+                            ),
+                            child: Row(
+                              children: [
+                                const NavBar(),
+                                const Expanded(
+                                  child: AddressBar(
+                                    key: Key('address_bar'),
+                                  ),
+                                ),
+                                if (ThemeConfigs().config.showSearchBar)
+                                  const HeheSearchBar(),
+                              ],
+                            ),
+                          ),
+                          ToolBar(onAction: (action) {
                             _handleAction(context, action);
-                          },
-                        ),
+                          }),
+                          Expanded(
+                            child: MainArea(
+                              key: const Key('main_area'),
+                              onAction: (action) {
+                                _handleAction(context, action);
+                              },
+                            ),
+                          ),
+                          const StatusBar(),
+                        ],
                       ),
-                      const StatusBar(),
-                    ],
-                  ),
+                    );
+                  },
                 ),
               ],
             ),

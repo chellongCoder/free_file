@@ -5,7 +5,7 @@ environment:
 
 dependencies:
   # Dependency Injection.
-  get_it: ^7.6.4
+  get_it: ^8.0.1
 
   # Event Bus.
-  event_bus: ^2.0.0
+  event_bus: ^2.0.1
